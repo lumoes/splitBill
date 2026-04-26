@@ -1,0 +1,21 @@
+:root {
+  --bg: #fffdf4;
+  --card: #ffffff;
+  --text: #2b2b2b;
+  --muted: #5d6472;
+
+  --green: #58cc02;
+  --green-dark: #46a302;
+  --yellow: #ffd63d;
+  --blue: #1cb0f6;
+  --orange: #ff9f1c;
+  --outline: #2b2b2b;
+  --danger: #ef4444;
+
+  --radius-xl: 24px;
+  --radius-lg: 18px;
+  --radius-md: 14px;
+
+  --shadow-card: 0 8px 0 var(--outline);
+  --shadow-press: 0 3px 0 var(--outline);
+}

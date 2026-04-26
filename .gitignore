@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# splitBill build/runtime artifacts
+splitBill/node_modules/
+splitBill/dist/
+splitBill/*.tsbuildinfo
+splitBill/vite.config.js
+splitBill/vite.config.d.ts

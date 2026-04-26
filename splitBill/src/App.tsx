@@ -110,14 +110,14 @@ export default function App() {
       </section>
 
       <div className="allocation-status card section">
-        <span>未分配金额：{totals.unallocatedCents > 0 ? "" : "-"}</span>
+        <span>未分配金额：</span>
         <strong>
           {new Intl.NumberFormat("zh-CN", {
             style: "currency",
             currency: state.billInput.baseCurrency,
             minimumFractionDigits: 2,
             maximumFractionDigits: 2
-          }).format(Math.abs(totals.unallocatedCents) / 100)}
+          }).format(totals.unallocatedCents / 100)}
         </strong>
       </div>
 
